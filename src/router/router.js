@@ -5,6 +5,7 @@ import Posts from "../pages/Posts.vue";
 import About from "../pages/About.vue";
 import PostId from "../pages/PostId.vue";
 import PostsWithStore from "../pages/PostsWithStore.vue";
+import PostsComposition from "../pages/PostsComposition.vue";
 
 const routes = [
     {
@@ -26,6 +27,10 @@ const routes = [
     {
         path: '/store',
         component: PostsWithStore
+    },
+    {
+        path: '/composition',
+        component: PostsComposition
     },
 ]
 const router = createRouter({
